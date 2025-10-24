@@ -18,8 +18,10 @@ The goal is to design, simulate, and validate **decentralized** and **centralize
 - Analyzed system dynamics and verified controller performance through simulation.
 - Developed comparative plots of trajectory tracking accuracy.
 
+
 ## 🧪 Results
-The designed controllers achieved stable trajectory tracking and demonstrated the influence of coupling in joint control.
+The designed controllers achieved stable trajectory tracking. It should be noted that controlling a manipulator in operational space is generally more complex than controlling it in joint space, since designing the controller in operational space still requires calculating the Jacobian of the manipulator.
+
 
 ## 📁 Repository Structure
 - src/ → MATLAB and Simulink source files
